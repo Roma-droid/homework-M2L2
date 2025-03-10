@@ -1,7 +1,7 @@
 import telebot
 from telebot import TeleBot
 import lmstudio as lms
-bot = telebot.TeleBot("7294624873:AAEA6i-U03rMzCpVmgEtAeR6gagQLmaE0ew")
+bot = telebot.TeleBot()
 
 
 @bot.message_handler(commands=['start', 'info'])
